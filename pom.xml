@@ -101,11 +101,16 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>Snapshots</name>
-      <url>http://192.168.182.140:5000/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>	
+<distributionManagement>
+	<repository>
+	  <id>nexus2</id>
+	  <name>Nexus Releases</name>
+	  <url>http://192.168.182.140:5000/nexus/content/repositories/releases</url>
+	</repository>
+	<snapshotRepository>
+	  <id>nexus2</id>
+	  <name>Nexus Snapshot</name>
+	  <url>http://192.168.182.140:5000/nexus/content/repositories/snapshots</url>
+	</snapshotRepository>
+</distributionManagement>	
 </project>
