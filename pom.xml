@@ -98,7 +98,8 @@
   </dependencyManagement>
   <distributionManagement>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
+      <id>snapshots</id>
+      <name>Snapshots</name>
       <url>http://192.168.182.140:5000/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>	
