@@ -110,7 +110,7 @@
 	<snapshotRepository>
 	  <id>nexus3</id>
 	  <name>Nexus Snapshot</name>
-	  <url>http://192.168.182.140:5001/repository/maven-snapshots/</url>
+	  <url>http://192.168.182.140:5001/repository/test02/</url>
 	</snapshotRepository>
 </distributionManagement>	
 </project>
