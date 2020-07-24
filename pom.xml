@@ -105,12 +105,12 @@
 	<repository>
 	  <id>nexus3</id>
 	  <name>Nexus Releases</name>
-	  <url>http://192.168.182.140:5001/repository/test01/</url>
+	  <url>http://192.168.182.140:5001/maven-releases/test01/</url>
 	</repository>
 	<snapshotRepository>
 	  <id>nexus3</id>
 	  <name>Nexus Snapshot</name>
-	  <url>http://192.168.182.140:5001/repository/test02/</url>
+	  <url>http://192.168.182.140:5001/maven-releases/test02/</url>
 	</snapshotRepository>
 </distributionManagement>	
 </project>
